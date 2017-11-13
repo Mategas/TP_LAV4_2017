@@ -3,6 +3,11 @@ width: 80px;
 height: 70px;
 }
 
+.menu:hover{
+    background-color:#8C9EFF;
+    cursor:pointer;
+}
+
 .hero-text {
     text-align: center;
     position: absolute;

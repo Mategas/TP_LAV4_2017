@@ -7,6 +7,18 @@ import { ListadoDeResultadosComponent } from './componentes/listado-de-resultado
 import { LoginComponent } from './componentes/login/login.component';
 //  import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+//Imports de Material
+import { 
+  MatCardModule,
+  MatListModule,
+  MatIconModule,
+  MatLineModule,
+  MatToolbarModule,
+  MatButtonModule
+         
+} from '@angular/material';
+
+
 // import { AccordionModule } from 'ngx-bootstrap';
 // agrego las clases para utilizar ruteo
 import { RouterModule, Routes } from '@angular/router';
@@ -66,7 +78,13 @@ import { AnagramaComponent } from './componentes/anagrama/anagrama.component'
   imports: [
     BrowserModule,
     FormsModule,
-    RuteandoModule
+    RuteandoModule,
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
+    MatLineModule,
+    MatToolbarModule,
+    MatButtonModule
 
     // NgbModule.forRoot(MiRuteo),
     // importo el ruteo
